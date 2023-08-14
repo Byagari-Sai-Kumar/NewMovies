@@ -1,0 +1,261 @@
+@import url('https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/hk-grotesk.min.css');
+
+.searchOverallBgContainer {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #131313;
+  font-family: HK Grotesk;
+}
+
+.HeaderOverallContainer {
+  width: 100%;
+  height: 13vh;
+  background: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+  @media (min-width: 768px) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.logoContainer {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 15px;
+  @media (min-width: 768px) {
+    width: 35%;
+  }
+}
+
+.websiteLogoLink {
+  text-decoration: none;
+}
+
+.websiteLogo {
+  height: 90%;
+  cursor: pointer;
+}
+
+.paraLinks {
+  display: none;
+  @media (min-width: 768px) {
+    display: block;
+    text-decoration: none;
+  }
+}
+
+.home {
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.iconsContainer {
+  height: 100%;
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  @media (min-width: 768px) {
+    width: 35%;
+  }
+}
+
+.searchButton {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.searchIconLink {
+  text-decoration: none;
+}
+
+.addIconImage {
+  height: 22px;
+  @media (min-width: 768px) {
+    display: none;
+  }
+}
+
+.profileImageLink {
+  display: none;
+  @media (min-width: 768px) {
+    display: inline;
+    text-decoration: none;
+  }
+}
+
+.profileImage {
+  height: 22px;
+  @media (min-width: 768px) {
+    height: 25px;
+  }
+}
+
+.searchInputAndButtonContainer {
+  width: 70%;
+  height: 27px;
+  background: transparent;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.searchBox {
+  width: 85%;
+  height: 100%;
+  font-size: 11px;
+  padding-left: 10px;
+  border: none;
+  background: none;
+  border-top-left-radius: 8px;
+  border-top-left-radius: 8px;
+  outline: none;
+  color: #ffffff;
+}
+
+.searchContainer {
+  width: 100%;
+  min-height: 85vh;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchResultsUnorderedList {
+  width: 100%;
+  height: 100%;
+  padding-left: 0px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding-bottom: 20px;
+}
+
+.linkItem {
+  text-decoration: none;
+  width: 90px;
+  margin: 5px;
+  border-radius: 8px;
+}
+
+.movieCardList {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.searchMovie {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.noResultsContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.noSearchResultImage {
+  width: 70%;
+}
+
+.noSearchPara {
+  font-size: 16px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.failureView {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-family: HK Grotesk;
+}
+
+.failureImage {
+  width: 250px;
+  height: 250px;
+}
+
+.failurePara {
+  font-size: 18px;
+}
+
+.tryAgainButton {
+  height: 35px;
+  width: 120px;
+  border: none;
+  border-radius: 10px;
+  background-color: #ffffff;
+  color: #131313;
+  cursor: pointer;
+}
+
+.optionsButton {
+  border: none;
+  background: none;
+}
+
+.popUpOptionsContainer {
+  background-color: #131313;
+  color: #ffffff;
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+}
+
+.close {
+  align-self: flex-end;
+  margin-right: 20px;
+}
+
+.popupLinkItem {
+  text-decoration: none;
+  color: #ffffff;
+  margin: 10px;
+}
+
+@media (min-width: 768px) {
+  .linkItem {
+    width: 150px;
+  }
+  .noSearchPara {
+    font-size: 30px;
+    color: #ffffff;
+  }
+}
+
+@media (min-width: 992px) {
+  .linkItem {
+    width: 200px;
+  }
+  .noSearchResultImage {
+    width: 20%;
+  }
+  .noSearchPara {
+    font-size: 25px;
+    color: #ffffff;
+  }
+}

@@ -1,0 +1,94 @@
+.loginBgOverallContainer {
+  width: 100vw;
+  height: 100vh;
+  background: #131313;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px;
+  @media (min-width: 768px) {
+    background-image: url('https://res.cloudinary.com/dkx0drjah/image/upload/v1691644934/netfilx_1LoginBg_tbmmac.png');
+    background-size: cover;
+  }
+}
+
+.websiteLogoSmDevices {
+  align-self: flex-start;
+}
+
+.formContainer {
+  width: 100%;
+  max-width: 450px;
+  background: transparent;
+  margin-top: 50px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  @media (min-width: 768px) {
+    border-radius: 8px;
+    background: #0c0b10;
+    padding: 15px;
+  }
+}
+
+.LoginHeading {
+  color: var(--general-white, #fff);
+  font-family: Roboto;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+}
+
+.labelElement {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 13px;
+  font-style: normal;
+  line-height: 16px;
+  letter-spacing: 0.12px;
+  text-transform: uppercase;
+}
+
+.inputElement {
+  font-family: Roboto;
+  height: 40px;
+  width: 100%;
+  border-radius: 8px;
+  background-color: #333333;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  padding-left: 15px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.errorMsg {
+  color: var(--light-red-600, #dc2626);
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 0px;
+}
+
+.loginButton {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 40px;
+  padding: 8px 20px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  background: #e50914;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}

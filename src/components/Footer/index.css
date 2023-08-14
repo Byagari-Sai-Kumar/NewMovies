@@ -1,0 +1,43 @@
+.iconsOverallContainer {
+  width: 100%;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerIconsContainer {
+  width: 30%;
+  padding-left: 0px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 2px;
+}
+
+.contactUs {
+  margin-top: 0px;
+  font-size: 12px;
+}
+
+@media (min-width: 768px) {
+  .footerIconsContainer {
+    width: 20%;
+  }
+  .contactUs {
+    margin-top: 0px;
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 992px) {
+  .footerIconsContainer {
+    width: 15%;
+  }
+  .contactUs {
+    margin-top: 4px;
+    font-size: 14px;
+  }
+}

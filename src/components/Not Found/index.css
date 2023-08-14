@@ -1,0 +1,55 @@
+@import url('https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/hk-grotesk.min.css');
+
+.notFoundOverallBgContainer {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('https://res.cloudinary.com/dkx0drjah/image/upload/v1691991122/snow-removal-machine-working-high-ski-slope-snowstorm_454047-2149_1_xnxt3t.png');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: HK Grotesk;
+  color: #ffffff;
+  padding: 15px;
+}
+
+.lostHeading {
+  align-self: center;
+  text-align: center;
+  font-size: 32px;
+}
+
+.lostPara {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 0px;
+}
+
+.linkButton {
+  text-decoration: none;
+  align-self: center;
+}
+
+.homeButton {
+  height: 35px;
+  width: 150px;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .notFoundOverallBgContainer {
+    background-image: url('https://res.cloudinary.com/dkx0drjah/image/upload/v1691992071/snow-removal-machine-working-high-ski-slope-snowstorm_454047-2149_1_wupavj.png');
+    background-size: cover;
+    background-position: center;
+  }
+}
